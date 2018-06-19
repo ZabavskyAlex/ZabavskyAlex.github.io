@@ -1,0 +1,31 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "author": "Alexander Zabavsky",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "image-webpack-loader": "^4.2.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "fileloader": "^2.0.0",
+    "fs-readdir": "0.0.3",
+    "nodejs-latest": "^1.1.0",
+    "readdir": "^0.1.0",
+    "sortablejs": "^1.7.0"
+  }
+}
