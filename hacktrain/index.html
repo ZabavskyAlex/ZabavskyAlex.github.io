@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktrain</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet"  href="style/main.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1240px)" href="style/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="style/mobile.css">
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <section class="nav">
+            <div class="wrp-section-content font-light-coloured">
+                <div class="div-nav-mobile">
+                    <span id="open-mobile-nav" class="glyphicon glyphicon-align-justify"> </span>
+                </div>
+                <nav id='nav'>
+                    <ul>
+                        <li><a href="#hackathon">hackathon</a></li>
+                        <li><a href="#description">description</a></li>
+                        <li><a href="#map">map</a></li>
+                        <li><a href="#agenda">agenda</a></li>
+                        <li><a href="#mentors">mentors</a></li>
+                        <li><a href="#events">events</a></li>
+                        <li><a href="#FAQ">FAQ</a></li>
+                        <li><a href="#partners">partners</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section id="hackathon" class="hackathon">
+                <section class="animation">
+                    <div class="anim-train">
+                        <img id="train" class="train" src="images/train.png">
+                    </div>
+
+                    <section class="info">
+                        <div class="wrp-section-content font-light-coloured">
+                            <div class="trip">
+                                <h1><strong>Imaguru Hackathon on Train</strong></h1>
+                                <h2>Minsk - Riga
+
+                                    August 30 - September 1, 2018</h2>
+                                <button class="sing-up" id="sing-up">Sign Up</button>
+                            </div>
+                            <div class="logo">
+                                <img src="images/partners/logo-imaguru.svg" alt="imaguru logo">
+                                <img src="images/partners/logo-LIAA.png" alt="imaguru logo">
+                            </div>
+                                <span class="city-span span-minsk">minsk</span>
+                                <span class="city-span span-riga">riga</span>
+
+                            <div class="music">
+                                <audio id="bg-music" src="audio/bg-music.mp3" autoplay loop></audio>
+                                <span id="span-bg-music" class="glyphicon glyphicon-volume-up"></span>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+        </section>
+        <section id="description" class="description">
+            <div class="wrp-section-content">
+                <p>
+                    For the first time in Belarus. Starting at Imaguru on August 30th, continuing on a train in Riga, finishing after our arrival in Riga and ending at.
+
+                    The now legendary Hackatrain attracts developers, designers and entrepreneurs from all over the world, all hoping to strike it big, hackathon-style.
+
+                    This isn’t your typical hackathon. Say goodbye to boring venues and hello to travelling around with more than 50 fellow hackers competing across mobility challenges. Are you ready for Hackathon on Train Minsk-Riga?
+                </p>
+            </div>
+        </section>
+        <section id="map" class="map">
+            <div class="wrp-section-content font-light-coloured">
+                <h2>Minsk, Imaguru (Aug 30) ---- Riga (Sept 1)</h2>
+                <iframe class="map-way" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2312498.804802228!2d25.143012455843426!3d55.52715030917867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!3m2!1d53.904539799999995!2d27.5615244!4m5!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2z0KDQuNCz0LAsINCb0LDRgtCy0LjRjw!3m2!1d56.9496487!2d24.1051865!5e0!3m2!1sru!2sby!4v1530220732466" allowfullscreen></iframe>
+                <h2 id="agenda">Agenda</h2>
+                <div  class="agenda">
+                    <div class="day">
+                        <h3 class="agenda-date">Aug 30</h3>
+                        <ul>
+                            <li><span class="agenda-time">17:00 - 17:30</span><h4>Registration</h4></li>
+                            <li><span class="agenda-time">18:00 - 18:30</span><h4>Opening Ceremony</h4> </li>
+                            <li><span class="agenda-time">18:30 - 20:00</span><h4>Pitching in Minsk / Hackathon Starts</h4></li>
+                        </ul>
+                    </div>
+                    <div class="day">
+                        <h3 class="agenda-date">Aug 31</h3>
+                        <ul>
+                            <li><span class="agenda-time">09:00 - 11:00</span><h4>Breakfast / Check-point</h4></li>
+                            <li><span class="agenda-time">11:00</span><h4>Mentoring Session</h4> </li>
+                            <li><span class="agenda-time">13:00 - 14:00</span><h4>Lunch</h4></li>
+                            <li><span class="agenda-time">14:00</span><h4>Mentoring Session</h4> </li>
+                            <li><span class="agenda-time">18:00 - 14:00</span><h4>Dinner / Departure for train</h4></li>
+                            <li><span class="agenda-time">20:15</span><h4>Train departures</h4> </li>
+                            <li><span class="agenda-time">20:15</span><h4>… Hacking</h4></li>
+                        </ul>
+                    </div>
+                    <div class="day">
+                        <h3 class="agenda-date">Sept 1</h3>
+                        <ul>
+                            <li><span class="agenda-time">08:00</span><h4>Train Arrives to Riga</h4></li>
+                            <li><span class="agenda-time">09:00</span><h4>Breakfast / Check-point</h4> </li>
+                            <li><span class="agenda-time">11:00 - 14:00</span><h4>Mentoring Session</h4></li>
+                            <li><span class="agenda-time">13:00</span><h4>Lunch</h4> </li>
+                            <li><span class="agenda-time">14:00 - 14:00</span><h4>Final Preparation</h4></li>
+                            <li><span class="agenda-time">18:00</span><h4>Final Stage</h4> </li>
+                            <li><span class="agenda-time">19:30</span><h4>Award Ceremony. Party</h4></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mentors" class="mentors">
+            <div class="wrp-section-content">
+                <h2>mentors</h2>
+                <div class="list-mentors">
+                    <div class="mentor">
+                        <p><img src="images/mentors/mentor.png"></p>
+                        <figcaption><h4>Mentor 1</h4></figcaption>
+                    </div>
+                    <div class="mentor">
+                        <p><img src="images/mentors/mentor.png"></p>
+                        <figcaption><h4>Mentor 2</h4></figcaption>
+                    </div>
+                    <div class="mentor">
+                        <p><img src="images/mentors/mentor.png"></p>
+                        <figcaption><h4>Mentor 3</h4></figcaption>
+                    </div>
+                    <div class="mentor">
+                        <p><img src="images/mentors/mentor.png"></p>
+                        <figcaption><h4>Mentor 4</h4></figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="events" class="events">
+            <div class="wrp-section-content font-light-coloured">
+                <h2>events</h2>
+                <div class="data-event">
+                    <a target="_blank" href="https://photos.google.com/share/AF1QipMzMhdLPzHn0ncQGBByF2RC-YWXaI9eYMom3MGggduOPdeW9dk-2u5qPkqc8EWZNw?key=VmZTTl9DZDZnVzJkUmlaaXVSQkhwTGNnNHJyTU13"><h4>Photos Day 1</h4></a>
+                    <a target="_blank" href="https://photos.google.com/share/AF1QipNtwulzUpG_uTaKJdMsEzWLWKgCZHZ4Wkai4mHHcfp27meKUn5J1K8W-p5vUAyGvg?key=ZTI0V3E0S3pIWlNlR2dGV2gwWktrLVFZSklITlJ3"><h4>Photos Day 2</h4></a>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=57m27q_xE68&amp;list=PLe--kalBDwjgH1MQpttWyHmDR98Q404Tn"><h4>Videos</h4></a>
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1DyFU2UQF2B8BXAVZn6uc-W1rIwc32_k9"><h4>Slides</h4></a>
+                </div>
+            </div>
+        </section>
+        <section id="FAQ" class="FAQ">
+            <div class="wrp-section-content">
+                <h2>FAQ</h2>
+                <div class="list-FAQ">
+                    <article>
+                        <header>
+                            <h3>How do I get my train ticket?</h3>
+                            <span class="glyphicon glyphicon-circle-arrow-down open-content-FAQ"></span>
+                        </header>
+                        <div class="content content-none">
+                            The check-in for participants will be organized at Restaurant 1e Klas, located at platform 2B, Amsterdam Central Station.
+                        </div>
+                    </article>
+                    <article>
+                        <header>
+                            <h3>From where is the Hackatrain departing?</h3>
+                            <span class="glyphicon glyphicon-circle-arrow-down open-content-FAQ"></span>
+                        </header>
+                        <div class="content content-none">
+                            The check-in for participants will be organized at Restaurant 1e Klas, located at platform 2B, Amsterdam Central Station.
+                        </div>
+                    </article>
+                    <article>
+                        <header>
+                            <h3>What time is the Hackatrain departing?</h3>
+                            <span class="glyphicon glyphicon-circle-arrow-down open-content-FAQ"></span>
+                        </header>
+                        <div class="content content-none">
+                            The check-in for participants will be organized at Restaurant 1e Klas, located at platform 2B, Amsterdam Central Station.
+                        </div>
+                    </article>
+                    <article>
+                        <header>
+                            <h3>What about the return trip?</h3>
+                            <span class="glyphicon glyphicon-circle-arrow-down open-content-FAQ"></span>
+                        </header>
+                        <div class="content content-none">
+                            The check-in for participants will be organized at Restaurant 1e Klas, located at platform 2B, Amsterdam Central Station.
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="partners" class="partners">
+            <div class="wrp-section-content font-dark-bg">
+                <h2>partners</h2>
+                <ul class="partner-list">
+                    <li><a class="partner-diamond" target="_blank" href="http://www.epam.by/"><img src="images/partners/logo-epam.svg" alt="epam logo"></a>
+                    </li><li><a class="partner-gold" target="_blank" href="https://emerline.com/"><img src="images/partners/logo-emerline.svg" alt="emerline logo"></a></li>
+                    <li><a class="partner-gold" target="_blank" href="https://www.evolutiongaming.com/"><img src="images/partners/logo-evolution-gaming.svg" alt="evolution gaming logo"></a></li>
+                    <li><a class="partner-silver" target="_blank" href="https://www.oxagile.com/"><img src="images/partners/logo-oxagile.png" alt="oxagile logo" ></a></li>
+                    <li><a class="partner-silver shift-left" target="_blank" href="http://hqsoftwarelab.by/"><img src="images/partners/logo-hqsoftware.png" alt="hqsoftwarelab logo"></a></li>
+                    <li><a class="partner-silver" target="_blank" href="http://www.apalon.com/"><img src="images/partners/logo-apalon.png" alt="apalon logo"></a></li>
+                    <li><a class="partner-bronze shift-left" target="_blank" href="https://www.facebook.com/nikofirm/"><img src="images/partners/logo-nikofirm.png" alt="Niko Firm logo"></a></li>
+                </ul>
+                <h2>travel sponsors</h2>
+                <ul class="partner-list">
+                    <li><a href="http://mozilla.org"><img src="images/partners/logo-mozilla.svg" alt="mozilla logo"></a>
+                    </li><li><a target="_blank" href="https://www.microsoft.com/"><img src="images/partners/logo-microsoft.svg" alt="microsoft logo"></a></li>
+                    <li><a target="_blank" href="https://www.yandex.com/"><img src="images/partners/logo-yandex.svg" alt="yandex logo"></a></li>
+                    <li><a target="_blank" href="https://www.egnyte.com/"><img src="images/partners/logo-egnyte.svg" alt="egnyte logo"></a></li>
+                    <li><a target="_blank" href="http://mad.maniak.pro"><img src="images/partners/logo-madmaniak.svg" alt="madmaniak logo"></a></li>
+                    <li><a target="_blank" href="https://www.keepsolid.com/"><img src="images/partners/logo-keepsolid.svg" alt="keep solid logo"></a></li>
+                    <li><a target="_blank" href="https://www.toptal.com/"><img src="images/partners/logo-toptal.png" alt="toptal logo"></a></li>
+                </ul>
+                <h2>information partners</h2>
+                <ul class="partner-list">
+                    <li><a target="_blank" href="https://dev.by/"><img src="images/partners/logo-devby.png" alt="dev by logo"></a></li>
+                    <li><a target="_blank" href="https://www.onliner.by/"><img src="images/partners/logo-onliner.png" alt="onliner logo" ></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="developer">
+            <div class="wrp-section-content font-dark-bg">
+                    Zabavsky Alexander © 2018.
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="js/index.js"> </script>
+</body>
+</html>

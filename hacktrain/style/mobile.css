@@ -1,0 +1,115 @@
+.train{
+    width: 100px;
+}
+
+.animation .anim-train {
+    top: 60%;
+}
+
+.music{
+    top: 70%;
+    left: 50%;
+}
+
+.city-span{
+    top: 50%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+nav{
+    display: none;
+}
+
+.open-nav{
+    display: block;
+}
+
+section.nav .wrp-section-content {
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    font-size: 15px;
+}
+
+nav ul{
+    flex-direction: column;
+    align-items: center;
+}
+nav li{
+    margin: 5px;
+}
+
+section.nav{
+    height: auto;
+}
+
+.div-nav-mobile{
+    display: block;
+    cursor: pointer;
+}
+
+section.description .wrp-section-content {
+    font-size: 16px;
+}
+
+.partners h2 {
+    margin: 10px;
+}
+
+.partner-list img {
+    max-width: 80px;
+}
+
+.mentor img {
+    width: 140px;
+}
+
+.agenda .day {
+    margin: 5px 10px;
+    width: 95%;
+    max-width: 400px;
+}
+
+.map .map-way {
+    margin-bottom: 25px;
+    height: 200px;
+}
+
+.hackathon .info{
+    text-align: center;
+    justify-content: center;
+}
+
+.hackathon .animation {
+    min-height: 650px;
+    max-height: 700px;
+}
+
+.info .trip {
+    align-items: center;
+}
+
+.info .logo {
+    width: 100%;
+}
+
+.info .logo img{
+    margin-bottom: 10px;
+}

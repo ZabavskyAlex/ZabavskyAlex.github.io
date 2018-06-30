@@ -1,0 +1,48 @@
+.train{
+    width: 300px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+section.nav{
+    font-size: 18px;
+}
+
+section.description .wrp-section-content {
+    font-size: 18px;
+}
+
+.partners h2 {
+    margin: 10px;
+}
+
+.partner-list img {
+    max-width: 110px;
+}
+
+.mentor img {
+    width: 160px;
+}
+
+.agenda .day {
+    margin: 10px 30px;
+}
+
+.map .map-way {
+    margin-bottom: 25px;
+    height: 300px;
+}
